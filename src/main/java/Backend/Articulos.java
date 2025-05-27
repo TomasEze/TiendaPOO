@@ -37,5 +37,14 @@ public class Articulos {
     public void setCantidad(int cantidad) {
         this.cantidad = cantidad;
     }
+    @Override
+    public String toString() {
+        return "Articulo{" +
+                "id = " + id +
+                ", nombre = '" + nombre + '\'' +
+                ", precio = " + precio +
+                ", cantidad = " + cantidad +
+                '}';
+    }
 
 }
